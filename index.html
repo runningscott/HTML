@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>我的个人简历</title>
+	</head>
+	<body>
+
+		<form action="users" method="GET" target="xxx">
+			<label>用户名<input type="text" name="username"></label>
+			<label>密码<input type="password" name="password"></label>
+
+			<label><input type="checkbox" name="login" value="autologin">自动登录</label>
+			<label><input type="checkbox" name="login" value="password">记住密码</label>
+			本人
+			<label><input type="radio" name="owner" value="yes">Yes</label>
+			<label><input type="radio" name="owner" value="no">No</label>
+			<select name="group" multiple>
+				<option value="">-</option>
+				<option value="1">第一组</option>
+				<option value="2">第二组</option>
+				<option value="3" disabled>第三组</option>
+				<option value="4" selected>第四组</option>
+			</select>
+			<hr>
+			<textarea style="resize:none; width:300px; height:300px;" name="多行文本" cols="30" rows="10"></textarea>
+
+			<input type="submit" value="提交">
+		</form>
+
+		<hr>
+		<div class="topNavBar">
+			<img src="#" alt="logo">
+			<nav>
+				<ul>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">SKILLS</a></li>
+					<li><a href="#">EXPERIENCE</a></li>
+					<li><a href="#">PRICING</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">CALENDAR</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">OTHER</a></li>
+					<li><a href="#">ALL DEMOS</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="banner" style="background-image: url(#)"></div>
+		<main>
+			<div class="card">
+				<div class="picture">
+					<img src="#" alt="头像">
+				</div>
+				<div class="text">
+					<div class="profile"> 
+						<span class="welcome">Hello</span>
+						<h1>我</h1>
+						<p>前端开发工程师</p>
+						<hr>
+						<dl>
+							<dt>年龄</dt>
+							<dd>18</dd>
+							<dt>所在城市</dt>
+							<dd>北京</dd>
+							<dt>email</dt>
+							<dd>helloseven306@gmail.com</dd>
+							<dt>手机</dt>
+							<dd>18512345678</dd>
+						</dl>
+					</div>
+					<footer class="media">
+						<a href="#"><img src="#" alt="x"></a>
+						<a href="#"><img src="#" alt="x"></a>
+						<a href="#"><img src="#" alt="x"></a>
+						<a href="#"><img src="#" alt="x"></a>
+						<a href="#"><img src="#" alt="x"></a>
+						<a href="#"><img src="#" alt="x"></a>
+						<a href="#"><img src="#" alt="x"></a>
+					</footer>
+				</div>
+			</div>		
+			<a href="#" class="button">下载 PDF 简历</a>
+			<p>
+				资深前端工程师<br>
+				技能：前端开发，Rails开发，Node.jf开发
+			</p>
+		</main>
+		<section>
+			<h2>技能</h2>
+			<ol>
+				<li>HTML 5 &amp; CSS 3</li>
+				<li>JavaScript</li>
+				<li>jQuery</li>
+				<li>Vue</li>
+				<li>React</li>
+				<li>HTTP</li>
+			</ol>
+		</section>
+		<section>
+			<h2>作品集</h2>
+			<nav>
+				<ol>
+					<li>所有</li>
+					<li>框架</li>
+					<li>原生JS&amp;CSS</li>
+				</ol>
+			</nav>
+			
+			<div class="jobs">
+				<div class="big"></div>
+				<div class="small"></div>
+				<div class="small"></div>
+			</div>
+		</section>
+	</body>
+</html>
+
